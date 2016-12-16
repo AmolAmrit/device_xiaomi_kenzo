@@ -23,7 +23,7 @@ DEVICE_PATH := device/xiaomi/kenzo
 TARGET_OTA_ASSERT_DEVICE := kenzo
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/xiaomi/kenzo/bluetooth
 
 # Filesystem
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
@@ -33,10 +33,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26838785024 # 26838801408 - 16384
 TARGET_KERNEL_CONFIG := lineageos_kenzo_defconfig
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/xiaomi/kenzo/system.prop
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += device/xiaomi/kenzo/sepolicy
 
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
