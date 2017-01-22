@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths_wcd9326.xml
 
-
 # Alipay / WeChat
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manage
@@ -39,6 +38,13 @@ PRODUCT_COPY_FILES += \
 # Flashlight
 PRODUCT_PACKAGES += \
     Flashlight
+
+
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8952 \
+    libqomx_core \
+    libmm-qcamera
 
 
 # Input
