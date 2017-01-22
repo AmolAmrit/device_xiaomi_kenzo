@@ -40,6 +40,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Flashlight
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8952 \
+    libqomx_core \
+    libmm-qcamera
 
 # Input
 PRODUCT_COPY_FILES += \
