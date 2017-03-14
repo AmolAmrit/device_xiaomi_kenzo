@@ -10,7 +10,7 @@ voice.voip.conc.disabled=true
 audio.parser.ip.buffer.size=0
 
 # Camera
-media.camera.ts.monotonic=0
+media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1
 camera.lowpower.record.enable=1
 
