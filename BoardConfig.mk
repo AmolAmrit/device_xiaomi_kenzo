@@ -38,5 +38,8 @@ TARGET_SYSTEM_PROP += device/xiaomi/kenzo/system.prop
 # Sepolicy
 BOARD_SEPOLICY_DIRS += device/xiaomi/kenzo/sepolicy
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
