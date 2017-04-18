@@ -42,5 +42,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_LD_SHIM_LIBS += \
 	/system/vendor/lib64/lib-imsvt.so|libshims_ims.so
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
