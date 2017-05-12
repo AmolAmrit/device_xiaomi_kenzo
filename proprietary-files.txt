@@ -176,6 +176,16 @@ vendor/lib/libois_lc898122.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libchromaflash.so|4cb4cc9dc1e290ba78b1156a029af07c8423a621 
+vendor/lib/libllvd_smore.so|740de4c339772df80858ddd9390f91ead71eadeb 
+vendor/lib/libllvd_sw_tnr.so|406895e2ae614ac84a62d1758bce1810b99c5cda 
+vendor/lib/libmmcamera_isp_abcc44.so|98a9dcfe8451ede62ba585b727dfedaff351cdf5 
+vendor/lib/libmmcamera_llvd.so|5fb3a000388d98a043d481964d29b11a87ba92db 
+vendor/lib/libmmcamera_sw_tnr.so|59b0f350eb0cfa85399c296af14ac680ca99705e 
+vendor/lib/liboptizoom.so|fb0925136938a8936aaa7694a3e38d4d59d5d4f1
+vendor/lib/libseemore.so|8807d3df160665d417bff1d2d6b551d032c51721
+vendor/lib/libtrueportrait.so|b8e11c098bd859aae6c535cdb87e3e36f6b1c6ef 
+vendor/lib/libubifocus.so|c26bc3a9a13bed065dc53299f9751ad6bc81c375 
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
 
