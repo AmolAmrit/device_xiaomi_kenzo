@@ -560,6 +560,9 @@ vendor/lib/libxml.so|4ab8a804dd094f8ebcfc803c62adfa642a3a0ae0
 # Consumerir
 bin/consumerird
 
+# Display calibration data
+etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml
+
 # DPM - from Mi Max
 bin/dpmd|845e7a704770e5c2362dea8056238ff265fbe867
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
