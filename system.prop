@@ -15,6 +15,9 @@ persist.radio.force_on_dc=true
 persist.radio.redir_party_num=0
 persist.radio.start_ota_daemon=1
 
+# Camera Force HAL1 in these packages
+camera.hal1.packagelist=com.skype.raider,com.google.android.GoogleCamera,com.tencent.mm
+
 # Codecs: (PARSER_) AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV FLAC AIFF APE
 mm.enable.qcom_parser=1048575
 persist.mm.enable.prefetch=true
