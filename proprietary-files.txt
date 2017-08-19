@@ -576,6 +576,12 @@ vendor/qcril.db
 etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 
+# Thermal
+vendor/bin/thermal-engine
+vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalioctl.so
+vendor/lib/libthermalclient.so
+
 # Time services
 -app/TimeService/TimeService.apk
 bin/time_daemon
