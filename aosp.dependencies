@@ -3,19 +3,19 @@
     "remote":      "github",  
     "repository":  "AmolAmrit/device_xiaomi_msm8956-common",
     "target_path": "device/xiaomi/msm8956-common",
-    "branch":      "n"
+    "branch":      "nougat"
   },
   {
     "remote":      "github",  
     "repository":  "AmolAmrit/Escrima_kernel_xiaomi_msm8956",
     "target_path": "kernel/xiaomi/msm8956",
-    "branch":      "n2"
+    "branch":      "nougat"
   },
   { 
     "remote":      "github",  
     "repository":  "AmolAmrit/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch":      "n2"
+    "branch":      "nougat"
   },
   { 
     "remote":      "github",  
@@ -28,11 +28,5 @@
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch":      "cm-14.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86",
-    "target_path": "prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64",
-    "branch":      "nougat-mr1"
   }
 ]
