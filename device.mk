@@ -42,10 +42,7 @@ PRODUCT_COPY_FILES += \
 
 # Libshims
 PRODUCT_PACKAGES += \
-    libshims_camera \
-    libshims_get_process_name \
-    libshims_ims \
-    libshims_sensor
+    libshims_ims
 
 # Ramdisk
 PRODUCT_PACKAGES += \
