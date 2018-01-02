@@ -510,7 +510,7 @@ etc/mbn_ota.txt
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
-etc/permissions/qti_permissions.xml
+etc/permissions/qti_permissions.xml|e9612cb154ebbf99c6a1a2c3061a4d5da69bc62c
 vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
