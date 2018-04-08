@@ -8,7 +8,6 @@ persist.audio.fluence.spk.mono=true
 persist.audio.fluence.voicerec=false
 voice.voip.conc.disabled=true
 audio.offload.multiaac.enable=true
-ro.audio.flinger_standbytime_ms=300
 
 # Radio
 persist.radio.cs_srv_type=1
