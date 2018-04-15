@@ -3,30 +3,24 @@
     "remote":      "github",  
     "repository":  "AmolAmrit/device_xiaomi_msm8956-common",
     "target_path": "device/xiaomi/msm8956-common",
-    "branch":      "nougat"
+    "branch":      "oreo"
   },
   {
     "remote":      "github",  
     "repository":  "AmolAmrit/Escrima_kernel_xiaomi_msm8956",
     "target_path": "kernel/xiaomi/msm8956",
-    "branch":      "nougat"
+    "branch":      "oreo"
   },
   { 
     "remote":      "github",  
     "repository":  "AmolAmrit/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch":      "nougat"
+    "branch":      "oreo"
   },
-  { 
-    "remote":      "github",  
-    "repository":  "LineageOS/android_hardware_cyanogen",
-    "target_path": "hardware/cyanogen",
-    "branch":      "cm-14.1"
-  },
-  { 
+    { 
     "remote":      "github",  
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch":      "cm-14.1"
+    "branch":      "linegae-15.1"
   }
 ]
