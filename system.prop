@@ -40,3 +40,6 @@ persist.data.df.agg.dl_size=4096
 persist.data.df.mux_count=8
 persist.data.df.iwlan_mux=9
 persist.data.df.dev_name=rmnet_usb0
+
+# Property to enable VDS WFD solution
+persist.hwc.enable_vds=1
