@@ -30,9 +30,6 @@ media.stagefright.enable-qcp=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
 
-# Choose between virtual/external wfd display
-persist.sys.wfd.virtual=0
-
 # System prop for RmNet Data
 persist.rmnet.data.enable=true
 persist.data.wda.enable=true
