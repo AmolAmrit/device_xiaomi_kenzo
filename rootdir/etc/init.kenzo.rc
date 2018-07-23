@@ -42,7 +42,7 @@ on property:ro.boot.fpsensor=gdx
     setprop persist.sys.fp.goodix 1
     setprop ro.hardware.fingerprint gdx
 
-service gx_fpd /system/bin/gx_fpd
+service gx_fpd /vendor/bin/gx_fpd
     class late_start
     user system
     group system

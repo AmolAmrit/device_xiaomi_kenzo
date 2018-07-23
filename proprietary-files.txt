@@ -1,15 +1,16 @@
 # ACBD Data
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
+etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
+
 
 # Camera
-bin/mm-qcamera-daemon
-lib/libRecoFace.so
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+lib/libRecoFace.so:vendor/lib/libRecoFace.so
 vendor/lib/lib-imscamera.so
 vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libFaceGrade.so
@@ -408,14 +409,14 @@ vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_preview.so
 vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_video.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw
+etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
+etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
+etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
+etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
+etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
 
 # Camera sensors
 vendor/lib/libmmcamera_ov5670.so
@@ -438,26 +439,30 @@ vendor/lib/libmmcamera_s5k5e8_z5e8yab_eeprom.so
 vendor/lib/libmmcamera_sunny_omi5f06_eeprom.so
 
 # Consumerir
-bin/consumerird
+bin/consumerird:vendor/bin/consumerird
 
 # Display calibration data
-etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml|08d8a40dc05ab00eb0709319b99e507124aacfdd
+etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml:vendor/etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml|08d8a40dc05ab00eb0709319b99e507124aacfdd
 
 # Fingerprint sensor
-bin/gx_fpd
-lib64/hw/fingerprint.goodix.default.so:lib64/hw/fingerprint.gdx.so
-lib64/hw/fingerprint.msm8952.so:lib64/hw/fingerprint.fpc.so
-lib64/hw/gxfingerprint.default.so
-lib64/lib_fpc_tac_shared.so
-lib64/libfp_client.so
-lib64/libfpnav.so
-lib64/libfpservice.so
-lib/hw/fingerprint.msm8952.so:lib/hw/fingerprint.fpc.so
-lib/lib_fpc_tac_shared.so
+bin/gx_fpd:vendor/bin/gx_fpd
+lib64/hw/fingerprint.goodix.default.so:vendor/lib64/hw/fingerprint.gdx.so
+lib64/hw/fingerprint.msm8952.so:vendor/lib64/hw/fingerprint.fpc.so
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so
+lib64/libfpnav.so:vendor/lib64/libfpnav.so
+lib64/libfpservice.so:vendor/lib64/libfpservice.so
+lib/hw/fingerprint.msm8952.so:vendor/lib/hw/fingerprint.fpc.so
+lib/lib_fpc_tac_shared.so:vendor/lib/lib_fpc_tac_shared.so
 
 # Fingerprint firmware
-etc/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03
-etc/firmware/goodixfp.mdt
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
+
+# Sensors
+etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf:vendor/etc/sensors/sensor_def_qcomdev.conf
