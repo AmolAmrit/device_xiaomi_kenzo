@@ -1,3 +1,0 @@
-allow hal_fingerprint_default gx_fpd_service:service_manager { find };
-
-binder_call(hal_fingerprint_default, gx_fpd)

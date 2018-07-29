@@ -43,4 +43,4 @@ set_prop(gx_fpd, system_prop)
 allow gx_fpd gx_fpd_service:service_manager { add find };
 
 r_dir_file(gx_fpd, firmware_file)
-binder_call(gx_fpd, hal_fingerprint_default)
+binder_call(gx_fpd, hal_fingerprint_8956)
