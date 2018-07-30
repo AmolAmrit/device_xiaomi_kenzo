@@ -437,9 +437,6 @@ vendor/lib/libmmcamera_s5k5e8_z5e8yab.so
 vendor/lib/libmmcamera_s5k5e8_z5e8yab_eeprom.so
 vendor/lib/libmmcamera_sunny_omi5f06_eeprom.so
 
-# Consumerir
-bin/consumerird
-
 # Display calibration data
 etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml|08d8a40dc05ab00eb0709319b99e507124aacfdd
 
