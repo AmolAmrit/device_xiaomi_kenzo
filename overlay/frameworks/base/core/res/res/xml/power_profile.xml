@@ -54,16 +54,7 @@
     
      <!-- Additional power used when GPS is acquiring a signal -->	
 	<item name="gps.on">27</item>
-    
-	<!-- The current consumed by the radio when it is scanning for a signal -->
-    <item name="radio.active">80</item>
-    <item name="radio.scanning">3</item>
-    
-	<!-- Current consumed by the radio at different signal strengths, when paging -->
-    <array name="radio.on"> <!-- Strength 0 to BINS-1 -->
-        <value>3.5</value>
-        <value>3.5</value>
-    </array>
+  
 
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
