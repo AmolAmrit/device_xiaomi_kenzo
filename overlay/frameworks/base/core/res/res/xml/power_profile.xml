@@ -27,13 +27,7 @@
 	<!-- Additional power used when screen is at maximum brightness, compared to
           screen at minimum brightness -->
     <item name="screen.full">240</item>
-	
-	<!-- Additional power used when bluetooth radio is transmitting/receiving -->
-    <item name="bluetooth.active">20</item>
-
-	 <!-- Current consumed by the bluetooth at different signal strengths, when paging -->
-     <item name="bluetooth.on">0.5</item>
-    
+ 
 	<!-- Additional power used when Wi-Fi is turned on but not receiving, transmitting, or scanning -->
     <item name="wifi.on">1</item>
 	
