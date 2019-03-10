@@ -37,6 +37,7 @@ vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
+vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libmmcamera_eeprom_util.so
@@ -77,6 +78,7 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libmmcamera_isp_wb40.so
+vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
@@ -85,6 +87,7 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
+vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera_vpu_module.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
