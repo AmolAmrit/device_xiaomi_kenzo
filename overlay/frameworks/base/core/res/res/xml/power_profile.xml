@@ -79,8 +79,8 @@
     </array>
     
 	<!-- Power consumption when CPU is idle -->
-    <item name="cpu.idle">5</item>
-     <item name="cpu.awake">20</item>
+    <item name="cpu.suspend">5</item>
+     <item name="cpu.idle">20</item>
    
     <!-- Power consumption at different speeds -->
     <array name="cpu.active.cluster0">
